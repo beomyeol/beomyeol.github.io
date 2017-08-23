@@ -34,7 +34,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #131F33;
+  color: #13294b;
 }
 a:focus {
   text-decoration: none;
@@ -63,6 +63,9 @@ p {
 .sidebar-wrapper a {
   color: #fff;
 }
+.sidebar-wrapper a:hover {
+  color: #E84A27;
+}
 .sidebar-wrapper .profile-container {
   padding: 30px;
   background: rgba(0, 0, 0, 0.2);
@@ -75,12 +78,12 @@ p {
   margin-top: 0;
   margin-bottom: 10px;
 }
-.sidebar-wrapper .tagline {
-  color: rgba(255, 255, 255, 0.6);
+.sidebar-wrapper .text {
+  color: #fff;
   font-size: 16px;
   font-weight: 400;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 .sidebar-wrapper .profile {
   margin-bottom: 15px;
@@ -216,15 +219,15 @@ p {
   position: absolute;
   right: 0;
   top: 0;
-  color: #97AAC3;
+  color: #687587;
 }
 .main-wrapper .company {
   margin-bottom: 10px;
-  color: #97AAC3;
+  color: #687587;
 }
 .main-wrapper .degree {
   margin-bottom: 10px;
-  color: #97AAC3;
+  color: #687587;
 }
 .main-wrapper .publication-title {
   font-size: 16px;
